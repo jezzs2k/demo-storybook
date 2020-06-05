@@ -7,7 +7,7 @@ const FormRegister = () => {
     email: '',
     password: '',
     username: '',
-    age: 0,
+    age: 18,
   });
 
   const [hoverDiv, setHover] = useState('');
@@ -48,7 +48,7 @@ const FormRegister = () => {
           min='0'
           max='100'
           className={`form-control ${hoverDiv === 'age' ? 'hover' : ''}`}
-          value={age}
+          value={age < 0 ? 18 : age}
           onChange={handleInputParams}
           onMouseMove={handleHover}
           onMouseLeave={handleHover}
