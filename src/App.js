@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import FormRegister from './components/FormRegister';
+import NavbarBookRenter from './components/NavbarBookRenter';
 
 const App = () => {
   return (
     <div className='App'>
-      <FormRegister />
+      <NavbarBookRenter amountCart={2} isAuthenticated={true} />
     </div>
   );
 };
