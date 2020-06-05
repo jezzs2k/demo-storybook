@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import FormLogin from './components/FormLogin';
+import FormRegister from './components/FormRegister';
 
 const App = () => {
   return (
     <div className='App'>
-      <FormLogin />
+      <FormRegister />
     </div>
   );
 };
