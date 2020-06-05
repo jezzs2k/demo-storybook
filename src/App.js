@@ -1,8 +1,14 @@
 import React from 'react';
 import './App.css';
 
-function App() {
-  return <div className='App'></div>;
-}
+import FormLogin from './components/FormLogin';
+
+const App = () => {
+  return (
+    <div className='App'>
+      <FormLogin />
+    </div>
+  );
+};
 
 export default App;
