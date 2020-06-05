@@ -45,6 +45,8 @@ const FormRegister = () => {
           type='number'
           name='age'
           id='age'
+          min='0'
+          max='100'
           className={`form-control ${hoverDiv === 'age' ? 'hover' : ''}`}
           value={age}
           onChange={handleInputParams}
