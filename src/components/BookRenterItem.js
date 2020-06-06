@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import './BookRenterItem.css';
 
@@ -24,6 +25,14 @@ const BookRenterItem = ({ row, userName, bookTitle, date, deadLine }) => {
       </div>
     </div>
   );
+};
+
+BookRenterItem.propTypes = {
+  row: PropTypes.number.isRequired,
+  userName: PropTypes.string.isRequired,
+  bookTitle: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
+  deadLine: PropTypes.string.isRequired,
 };
 
 export default BookRenterItem;

@@ -1,17 +1,19 @@
 import React from 'react';
 import './App.css';
 
-import BookRenderItem from './components/BookRenterItem';
+import UserPage from './components/UserPage';
 
 const App = () => {
   return (
     <div className='App'>
-      <BookRenderItem
-        row={5}
-        userName='Vũ Thanh Hiếu'
-        bookTitle='Cuộc sống tối giản của người nhật'
-        date='17/11/2000'
-        deadLine='17/2/2001'
+      <UserPage
+        user={{
+          logo: 'https://picsum.photos/seed/picsum/200/300',
+          name: 'Vũ Thanh Hiếu',
+          rate: 90,
+          nameStore: 'HieuBook',
+          products: 90,
+        }}
       />
     </div>
   );
