@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "./static/css/main.75d058bb.chunk.css",
+    "main.js": "./main.7144a80e1e74a0aec754.bundle.js",
+    "main.css.map": "./static/css/main.75d058bb.chunk.css.map",
+    "main.js.map": "./main.7144a80e1e74a0aec754.bundle.js.map",
+    "runtime~main.js": "./runtime~main.7144a80e1e74a0aec754.bundle.js",
+    "runtime~main.js.map": "./runtime~main.7144a80e1e74a0aec754.bundle.js.map",
+    "vendors~main.js": "./vendors~main.7144a80e1e74a0aec754.bundle.js",
+    "vendors~main.js.map": "./vendors~main.7144a80e1e74a0aec754.bundle.js.map",
+    "iframe.html": "./iframe.html",
+    "precache-manifest.cae599c7407d3d32a0ee348c370f6fac.js": "./precache-manifest.cae599c7407d3d32a0ee348c370f6fac.js",
+    "service-worker.js": "./service-worker.js",
+    "static/media/book.svg": "./static/media/book.cffe3e56.svg",
+    "static/media/cart.svg": "./static/media/cart.f26b133a.svg",
+    "static/media/heart.svg": "./static/media/heart.db97bbaa.svg",
+    "static/media/home.svg": "./static/media/home.841b4ee8.svg",
+    "static/media/house.svg": "./static/media/house.23a95014.svg",
+    "static/media/menu.svg": "./static/media/menu.77047417.svg",
+    "static/media/system.svg": "./static/media/system.6d90ae8e.svg",
+    "static/media/user.svg": "./static/media/user.3cae7928.svg",
+    "vendors~main.7144a80e1e74a0aec754.bundle.js.LICENSE.txt": "./vendors~main.7144a80e1e74a0aec754.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.7144a80e1e74a0aec754.bundle.js",
+    "vendors~main.7144a80e1e74a0aec754.bundle.js",
+    "static/css/main.75d058bb.chunk.css",
+    "main.7144a80e1e74a0aec754.bundle.js"
+  ]
+}

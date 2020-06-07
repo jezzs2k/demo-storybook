@@ -14,12 +14,12 @@ const NavbarBookRenter = (props) => {
   const guestLink = (
     <Fragment>
       <li className='h-navbar-item h-login'>
-        <a href='/login' className='h-nav-link'>
+        <a href='#Top' className='h-nav-link'>
           <span className='link-text'>Login</span>
         </a>
       </li>
       <li className='h-navbar-item h-signup'>
-        <a href='/register' className='h-nav-link '>
+        <a href='#Top' className='h-nav-link '>
           <span className='link-text'>SignUp</span>
         </a>
       </li>
@@ -28,7 +28,7 @@ const NavbarBookRenter = (props) => {
   const AuthLink = (
     <Fragment>
       <li className='h-navbar-item h-user'>
-        <a href='/' className='h-nav-link'>
+        <a href='#Top' className='h-nav-link'>
           <div className='nav-icon'>
             <img src={userImg} className='link-icon' alt='user' />
             <span className='link-text'>Name User</span>
@@ -36,7 +36,7 @@ const NavbarBookRenter = (props) => {
         </a>
       </li>
       <li className='h-navbar-item h-logout'>
-        <a href='/' className='h-nav-link '>
+        <a href='#Top' className='h-nav-link '>
           <span className='link-text'>Logout</span>
         </a>
       </li>
@@ -48,7 +48,7 @@ const NavbarBookRenter = (props) => {
       <nav className='h-navbar'>
         <ul className='h-navbar-nav'>
           <li className='h-navbar-item'>
-            <a href='/' className='h-nav-link'>
+            <a href='#Top' className='h-nav-link'>
               <div className='nav-icon'>
                 <img src={homeImg} className='link-icon' alt='home' />
               </div>
@@ -56,7 +56,7 @@ const NavbarBookRenter = (props) => {
             </a>
           </li>
           <li className='h-navbar-item'>
-            <a href='/books' className='h-nav-link'>
+            <a href='#Top' className='h-nav-link'>
               <div className='nav-icon'>
                 <img src={bookImg} className='link-icon' alt='book' />
               </div>
@@ -64,7 +64,7 @@ const NavbarBookRenter = (props) => {
             </a>
           </li>
           <li className='h-navbar-item'>
-            <a href='/cart' className='h-nav-link'>
+            <a href='#Top' className='h-nav-link'>
               <div className='nav-icon'>
                 <img src={cartImg} className='link-icon' alt='cart' />
               </div>
